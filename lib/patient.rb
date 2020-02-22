@@ -18,4 +18,10 @@
 
    def appointments
      Appointment.all.select {|appt| appt.patient==self}
-   end 
+   end
+
+
+   def doctors
+     appointements.map(&:doctor)
+   end
+ end 
