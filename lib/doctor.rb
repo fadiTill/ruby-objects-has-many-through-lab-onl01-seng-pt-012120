@@ -1,4 +1,4 @@
-class Doctor 
+class Doctor
 
   attr_asseccor :name
 
