@@ -1,6 +1,6 @@
 class Doctor
 
-  attr_asseccor :name
+  attr_accessor :name
 
   @@all = []
 
@@ -28,4 +28,4 @@ def patients
     patient.name
   end
 end
-end 
+end
