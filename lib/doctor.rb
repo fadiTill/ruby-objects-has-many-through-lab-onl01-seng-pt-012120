@@ -28,3 +28,4 @@ def patients
     patient.name
   end
 end 
+end 
