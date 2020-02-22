@@ -24,8 +24,8 @@ Appointment.new(date, patient, self)
 end
 
 def patients
-  Patient.all.map do |patient|
-    patient.name
+  appointments.all.map do |appt|
+    appt.patient
   end
 end
 end
