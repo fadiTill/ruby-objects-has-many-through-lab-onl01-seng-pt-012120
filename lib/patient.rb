@@ -1,4 +1,4 @@
- class patient
+ class Patient
    attr_accessor :name
 
    @@all =[]
@@ -24,4 +24,4 @@
    def doctors
      appointements.map(&:doctor)
    end
- end 
+ end
