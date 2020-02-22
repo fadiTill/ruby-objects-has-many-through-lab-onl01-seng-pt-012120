@@ -22,6 +22,6 @@
 
 
    def doctors
-     appointements.map(&:doctor)
+     Appointements.map(&:doctor)
    end
  end
