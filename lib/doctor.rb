@@ -27,5 +27,5 @@ def patients
   Patient.all.map do |patient|
     patient.name
   end
-end 
+end
 end 
